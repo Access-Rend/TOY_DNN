@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/mywork/ml/dnn/dnn.hpp
+iostream
+-
+cstdlib
+-
+algorithm
+-
+cmath
+-
+
+/mnt/d/mywork/ml/dnn/main.cpp
+dnn.hpp
+/mnt/d/mywork/ml/dnn/dnn.hpp
+
